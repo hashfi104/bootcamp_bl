@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		56103EB12327756B005292BF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56103EB02327756B005292BF /* main.swift */; };
+		562CBB3D23294D3500BF03B3 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562CBB3C23294D3500BF03B3 /* Animal.swift */; };
+		562CBB3F23294FC300BF03B3 /* Deer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562CBB3E23294FC300BF03B3 /* Deer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		56103EAD2327756B005292BF /* Bootcamp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Bootcamp; sourceTree = BUILT_PRODUCTS_DIR; };
 		56103EB02327756B005292BF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		562CBB3C23294D3500BF03B3 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		562CBB3E23294FC300BF03B3 /* Deer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +61,19 @@
 		56103EAF2327756B005292BF /* Bootcamp */ = {
 			isa = PBXGroup;
 			children = (
+				562CBB3B23294D2300BF03B3 /* Class */,
 				56103EB02327756B005292BF /* main.swift */,
 			);
 			path = Bootcamp;
+			sourceTree = "<group>";
+		};
+		562CBB3B23294D2300BF03B3 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				562CBB3C23294D3500BF03B3 /* Animal.swift */,
+				562CBB3E23294FC300BF03B3 /* Deer.swift */,
+			);
+			path = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +133,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				562CBB3F23294FC300BF03B3 /* Deer.swift in Sources */,
 				56103EB12327756B005292BF /* main.swift in Sources */,
+				562CBB3D23294D3500BF03B3 /* Animal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
