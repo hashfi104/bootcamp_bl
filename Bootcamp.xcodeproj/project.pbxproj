@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4AE7FC12232A9122001F35C5 /* Goat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE7FC11232A9122001F35C5 /* Goat.swift */; };
+		4AE7FC14232A918C001F35C5 /* Sheep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE7FC13232A918C001F35C5 /* Sheep.swift */; };
+		4AE7FC16232A9453001F35C5 /* Elephant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE7FC15232A9453001F35C5 /* Elephant.swift */; };
 		56103EB12327756B005292BF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56103EB02327756B005292BF /* main.swift */; };
 		562CBB3D23294D3500BF03B3 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562CBB3C23294D3500BF03B3 /* Animal.swift */; };
 		562CBB3F23294FC300BF03B3 /* Deer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562CBB3E23294FC300BF03B3 /* Deer.swift */; };
@@ -25,6 +28,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4AE7FC11232A9122001F35C5 /* Goat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goat.swift; sourceTree = "<group>"; };
+		4AE7FC13232A918C001F35C5 /* Sheep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheep.swift; sourceTree = "<group>"; };
+		4AE7FC15232A9453001F35C5 /* Elephant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elephant.swift; sourceTree = "<group>"; };
 		56103EAD2327756B005292BF /* Bootcamp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Bootcamp; sourceTree = BUILT_PRODUCTS_DIR; };
 		56103EB02327756B005292BF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		562CBB3C23294D3500BF03B3 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
@@ -72,6 +78,9 @@
 			children = (
 				562CBB3C23294D3500BF03B3 /* Animal.swift */,
 				562CBB3E23294FC300BF03B3 /* Deer.swift */,
+				4AE7FC11232A9122001F35C5 /* Goat.swift */,
+				4AE7FC13232A918C001F35C5 /* Sheep.swift */,
+				4AE7FC15232A9453001F35C5 /* Elephant.swift */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -133,6 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AE7FC12232A9122001F35C5 /* Goat.swift in Sources */,
+				4AE7FC14232A918C001F35C5 /* Sheep.swift in Sources */,
+				4AE7FC16232A9453001F35C5 /* Elephant.swift in Sources */,
 				562CBB3F23294FC300BF03B3 /* Deer.swift in Sources */,
 				56103EB12327756B005292BF /* main.swift in Sources */,
 				562CBB3D23294D3500BF03B3 /* Animal.swift in Sources */,

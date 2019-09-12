@@ -8,6 +8,13 @@
 
 import Foundation
 
+enum AnimalName: String {
+    case deer = "Rusa"
+    case goat = "Kambing"
+    case sheep = "Domba"
+    case elephant = "Gajah"
+}
+
 var animals : [Animal] = []
 
 func input() -> String {
@@ -24,10 +31,18 @@ func addAnimal(data: [String]){
         let animalName = data.first!
         var animal : Animal?
         
-        switch animalName {
-        case "Rusa":
-            animal = Deer(age: age, weight: weight)
-        default:
+        if let animalName = AnimalName.init(rawValue: animalName) {
+            switch animalName {
+            case .deer :
+                animal = Deer(age: age, weight: weight)
+            case .goat :
+                animal = Goat(age: age, weight: weight)
+            case .sheep :
+                animal = Sheep(age: age, weight: weight)
+            case .elephant :
+                animal = Elephant(age: age, weight: weight)
+            }
+        } else {
             animal = Animal(name: data.first!, age: age, weight: weight)
         }
         

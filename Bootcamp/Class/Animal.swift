@@ -21,6 +21,14 @@ class Animal {
         return 10
     }
     
+    var weightGain: Int {
+        return 3
+    }
+    
+    var weightLoss: Int {
+        return 1
+    }
+    
     init(name: String, age: Int, weight: Int) {
         self.name = name
         self.age = age
@@ -31,16 +39,18 @@ class Animal {
         if let w = weight, let a = age, let name = name {
             switch w {
             case 1..<minWeight:
-                let tempW = w+3
+                let tempW = w + weightGain
                 weight = (tempW < minWeight ? minWeight : tempW)
             case minWeight..<maxWeight:
-                weight = w+3
+                weight = w + weightGain
             default:
-                weight = w-1
+                weight = w - weightLoss
             }
             
             // Value for age
-            age = a+day
+            if day != 0 {
+                age = a + 1
+            }
             
             print("Kondisi \(name) di siang hari --> usia: \(age!) -- berat: \(weight!)")
         }
