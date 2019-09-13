@@ -62,7 +62,7 @@ class Animal {
             case 1..<minWeight:
                 weight = minWeight
             default:
-                weight = w - weightLoss
+                weight = w - 1
             }
             
             print("Kondisi \(name) di malam hari --> usia: \(age!) -- berat: \(weight!)")
